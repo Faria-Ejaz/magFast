@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 5px 5px -2px lightgrey;
+    max-width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(248, 248, 248);
+}
+
+#border > Col {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
