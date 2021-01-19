@@ -1,0 +1,44 @@
+
+    .container {
+        padding: 0px;
+    }
+    .QuantityBoxes {
+        border: 3px solid rgba(220, 220, 220, 0.7);
+        border-radius: 5px;
+        width: 50%;
+        text-align: center;
+        color: #404040;
+        background-color: #F3F3F3;
+
+    }
+
+    .BoxesRow
+     {
+        display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    }
+
+    .kitText {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 1.3em;
+    }
+    .bigNumber {
+        font-size: 80px;
+        font-weight: 600;
+    }
+
+    .title{
+        font-size: 46px;
+        font-weight: 600;
+        color: #404040;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .highlightedText {
+        color: #ffa500;
+    font-weight: 700;
+    }

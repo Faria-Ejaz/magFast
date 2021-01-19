@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding: 20px;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+
+.mainContainer {
+    background-color: rgb(248, 248, 248);
+
+}
+
+.widgetContainer {
+    margin: 20px 0px 33px 0px;
+}
+
+ .headingTitle{
+    font-size: 54px;
+    font-weight: 750;
+    color: #404040;
+    padding: 0px 0px 20px 0px;
+ }
+
+ .line1 {
+    color: #B2B2B2;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 0px 70px 0px;
+ }
+
+ .thanks{
+    font-size: 44px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    color: #404040;
+
+ }
+ .gctrees{
+     font-weight: 900;
+ }
+
+ .gct{
+    font-size: 20px;
+    color: #0a0000;
+    line-height: 1.3em;
+ }
+
+ .lastLine{
+    color: #808080;
+    font-size: 13.1px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+ }

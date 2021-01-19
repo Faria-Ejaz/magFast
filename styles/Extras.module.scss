@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgba(220, 220, 220, 0.7);
+    border-radius: 7px;
+    background-color: #F3F3F3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.title{
+    font-size: 46px;
+    font-weight: 600;
+    color: #404040;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.boldText {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: #404040;
+
+}
+.lightText {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: #404040;
+
+}
+
+.highlightedText {
+    color: #ffa500;
+font-weight: 700;
+}
+
+.QuantityBoxes {
+    border: 3px solid rgba(220, 220, 220, 0.7);
+    border-radius: 5px;
+    text-align: center;
+    color: #404040;
+    background-color: #F3F3F3;
+
+}
+.BoxContainer {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    line-height:30px;
+  }
+  .item {
+    margin: 5px;
+    border: 3px solid rgba(220, 220, 220, 0.7);
+    border-radius: 7px;
+    color: #404040;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: center;
+    flex: 1 0 0px;
+    // min-width: 1.5em;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    padding: 17px;    span {
+        font-size: 60%;
+    }}
+  .item:before {
+    content: "";
+	display: block;
+	// padding: 100%;
+    float: left;
+
+  
+}

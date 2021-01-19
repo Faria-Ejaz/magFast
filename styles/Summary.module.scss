@@ -1,0 +1,70 @@
+.card{
+    width: 36%;
+    display: flex;
+    text-align: center;
+    background-color: #f8f8f8;
+    border: none;
+}
+
+.card2{
+    // width: 36%;
+    display: flex;
+    text-align: center;
+    background-color: #f8f8f8;
+     border: none;
+    width: 100%;
+}
+.cardContainer{
+    padding: 49px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgba(220, 220, 220, 0.7);
+    border-radius: 5px;
+    .title {
+        font-size: 40px;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+}
+.cardContainer{
+    @media (min-width: 1028px){
+        width: 1285px;
+        left: 96px;
+
+    }
+}
+.card2Container {
+    border: 3px solid rgba(220, 220, 220, 0.7);
+    border-radius: 5px;
+    padding: 53px;
+}
+.line1{
+    color: #404040;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 42px;
+    padding: 10px;
+}
+.line2{
+    font-size: 20px;
+    color: #0a0000;
+    line-height: 1.3em;
+}
+.line3{
+    line-height: 1.5;
+    color: gray;
+    font-size: 50%;
+}
+.button{
+    font-size: 25px;
+    background-color: #EAAE02;
+    border-radius: 7px 7px 7px 7px;
+    padding: 25px 50px 25px 50px;
+    color: white;
+    font-weight: 600;
+}
+    .bigNumber {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: lato;
+}
