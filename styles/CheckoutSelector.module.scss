@@ -1,14 +1,16 @@
+@import '../variables' ;
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     // padding: 20px;
     width: 100%;
-    background-color: rgb(248, 248, 248);
+    background-color:$guyabano;
 }
 
 .mainContainer {
-    background-color: rgb(248, 248, 248);
+    background-color:$guyabano;
 
 }
 
@@ -19,13 +21,13 @@
  .headingTitle{
     font-size: 54px;
     font-weight: 750;
-    color: #404040;
+    color: $Eclipse;
     padding: 0px 0px 20px 0px;
  }
 
  .line1 {
     color: #B2B2B2;
-    font-size: 18px;
+    font-size:  $eighteenPX;
     font-weight: 400;
     padding: 0px 0px 70px 0px;
  }
@@ -34,7 +36,7 @@
     font-size: 44px;
     font-weight: 300;
     padding-bottom: 30px;
-    color: #404040;
+    color: $Eclipse;
 
  }
  .gctrees{
@@ -42,13 +44,13 @@
  }
 
  .gct{
-    font-size: 20px;
-    color: #0a0000;
+    font-size:  $twentyPX;
+    color: $Black;
     line-height: 1.3em;
  }
 
  .lastLine{
-    color: #808080;
+    color: $Gray;
     font-size: 13.1px;
     text-align: center;
     padding-bottom: 30px;

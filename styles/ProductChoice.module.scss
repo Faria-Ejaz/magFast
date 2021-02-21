@@ -1,7 +1,10 @@
+@import '../variables' ;
+
+
 .title{
-    font-size: 46px;
+    font-size:  $fortySixPX;
     font-weight: 600;
-    color: #404040;
+    color: $Eclipse;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -20,7 +23,7 @@
 
 .text {
     color: #B3B3B3;
-    font-size: 17px;
+    font-size:  $seventeenPX;
     font-weight: 400;
     line-height: 1.4em;
 }
@@ -31,8 +34,8 @@
     display: flex;
     justify-content: center;
     .text {
-        color: #D3D3D3;
-    font-size: 30px;
+        color: $light_gray;
+    font-size: $thirty0;
     font-weight: 400;
     }
     padding:0px 20px ;
@@ -59,7 +62,7 @@
     }
     .row1 {
         padding: 20px 0px 30px 0px;
-        background-color: #F3F3F3;
+        background-color: $White_Smoke;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -77,7 +80,7 @@
         font-weight: 700;
         line-height: 1.3em;
         text-align: center;
-        font-size: 16px;
+        font-size:  $sixteenPX;
         margin-bottom: 0px;
     }
     .bigNumber {
@@ -91,7 +94,7 @@
     }
 
     .italicTitle {
-        color: #D3D3D3;
-        font-size: 13px;
+        color: $light_gray;
+        font-size:  $thirteenPX;
         font-style: italic;
     }

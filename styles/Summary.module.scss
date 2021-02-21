@@ -1,8 +1,11 @@
+@import '../variables' ;
+
+
 .card{
     width: 36%;
     display: flex;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: $White_Smoke;
     border: none;
 }
 
@@ -10,7 +13,7 @@
     // width: 36%;
     display: flex;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: $White_Smoke;
      border: none;
     width: 100%;
 }
@@ -21,7 +24,7 @@
     border: 3px solid rgba(220, 220, 220, 0.7);
     border-radius: 5px;
     .title {
-        font-size: 40px;
+        font-size:  $fortyPX;
         font-weight: 400;
         padding-bottom: 40px;
     }
@@ -39,15 +42,15 @@
     padding: 53px;
 }
 .line1{
-    color: #404040;
+    color: $Eclipse;
     font-weight: 600;
     text-transform: none;
     font-size: 42px;
     padding: 10px;
 }
 .line2{
-    font-size: 20px;
-    color: #0a0000;
+    font-size:  $twentyPX;
+    color: $Black;
     line-height: 1.3em;
 }
 .line3{
@@ -56,7 +59,7 @@
     font-size: 50%;
 }
 .button{
-    font-size: 25px;
+    font-size: $twentyFivePX;
     background-color: #EAAE02;
     border-radius: 7px 7px 7px 7px;
     padding: 25px 50px 25px 50px;

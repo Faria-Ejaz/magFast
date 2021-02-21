@@ -1,0 +1,16 @@
+@import '../variables' ;
+
+.footer {
+    background-color: #e0e0e0;
+    padding: 30px;
+    text-align: center;                
+}
+.h2, .a {
+    font-size:  $nineteenPX;
+    color: $Gray;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.b {
+    font-weight: bold;
+}

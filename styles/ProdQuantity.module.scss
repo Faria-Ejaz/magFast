@@ -1,3 +1,4 @@
+@import '../variables' ;
 
     .container {
         padding: 0px;
@@ -7,8 +8,8 @@
         border-radius: 5px;
         width: 50%;
         text-align: center;
-        color: #404040;
-        background-color: #F3F3F3;
+        color: $Eclipse;
+        background-color: $White_Smoke;
 
     }
 
@@ -21,7 +22,7 @@
     }
 
     .kitText {
-        font-size: 19px;
+        font-size:  $nineteenPX;
         font-weight: 400;
         line-height: 1.3em;
     }
@@ -31,14 +32,14 @@
     }
 
     .title{
-        font-size: 46px;
+        font-size:  $fortySixPX;
         font-weight: 600;
-        color: #404040;
+        color: $Eclipse;
         padding: 10px;
         margin-bottom: 20px;
     }
 
     .highlightedText {
-        color: #ffa500;
+        color: $orange;
     font-weight: 700;
     }

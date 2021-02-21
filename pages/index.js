@@ -1,6 +1,4 @@
 import Head from 'next/head'
-// import styles from '../styles/Home.module.css'
-import  '../styles/index.module.scss'
 
 export default function Home() {
   return (
@@ -11,14 +9,11 @@ export default function Home() {
       </Head>
       
       <main className="container">
-        <h1 >
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+          <a href="http://localhost:3000/LaunchEvent">LaunchEvent</a>
+          <br></br>
+          <a href="http://localhost:3000/checkout-selector/">CheckoutSelector</a>
 
-      
-            </main>
-
-
+      </main>
     </div>
   )
 }
